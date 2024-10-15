@@ -1,0 +1,5 @@
+minutes = int(input("minute ecoulées depuis le début du mois:"))
+while minutes > 43200 or minutes < 1 :
+    int(input("minute ecoulées depuis le début du mois:"))
+temps = (minutes/60/24)
+print(temps, "jour se sout écoulées depuis le début du mois")

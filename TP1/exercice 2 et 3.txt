@@ -1,0 +1,11 @@
+jour = int(input("Entrez le jour du mois :"))
+if jour > 30 or jour < 1:
+    int(input("Entrez un jour du mois :"))
+heure = int(input("Entrez l'heure :"))
+if heure > 24 or heure < 0:
+   int(input("Entrez l'heure :"))
+minute = int(input("Entrez les minutes :" ))
+if minute > 60 or minute < 0:
+   int(input("Entrez les minutes :"))
+temps = (jour*24*60+heure*60+minute)
+print(temps, "minutes se sont écoulés depuis le début du mois")
